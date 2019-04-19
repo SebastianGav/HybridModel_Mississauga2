@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [regression]" parallel="tests">
-  <test thread-count="5" name="register-page(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [regression]">
+  <test thread-count="5" name="back-end(failed)">
     <classes>
-      <class name="testCases.TC001_login">
+      <class name="testCases.TC001_registerUser">
         <methods>
           <include name="setup"/>
-          <include name="doLogin"/>
-          <include name="setdown"/>
+          <include name="sample" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testCases.TC001_login -->
+      </class> <!-- testCases.TC001_registerUser -->
     </classes>
-  </test> <!-- register-page(failed) -->
+  </test> <!-- back-end(failed) -->
 </suite> <!-- Failed suite [regression] -->
