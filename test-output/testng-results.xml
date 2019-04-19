@@ -1,25 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15666" started-at="2019-04-17T23:57:02Z" finished-at="2019-04-17T23:57:17Z">
+  <suite name="regression" duration-ms="28701" started-at="2019-04-19T20:21:34Z" finished-at="2019-04-19T20:22:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15666" started-at="2019-04-17T23:57:02Z" finished-at="2019-04-17T23:57:17Z">
+    <test name="register-page" duration-ms="9628" started-at="2019-04-19T20:21:34Z" finished-at="2019-04-19T20:21:44Z">
       <class name="testCases.TC001_login">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="setup" is-config="true" duration-ms="8396" started-at="2019-04-17T23:57:02Z" finished-at="2019-04-17T23:57:10Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="setup" is-config="true" duration-ms="4438" started-at="2019-04-19T20:21:34Z" finished-at="2019-04-19T20:21:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="doLogin()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="doLogin" duration-ms="7237" started-at="2019-04-17T23:57:10Z" finished-at="2019-04-17T23:57:17Z">
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="doLogin" duration-ms="5162" started-at="2019-04-19T20:21:38Z" finished-at="2019-04-19T20:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="setdown()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="setdown" is-config="true" duration-ms="0" started-at="2019-04-17T23:57:17Z" finished-at="2019-04-17T23:57:17Z">
+        <test-method status="PASS" signature="setdown()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="setdown" is-config="true" duration-ms="1" started-at="2019-04-19T20:21:44Z" finished-at="2019-04-19T20:21:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setdown -->
       </class> <!-- testCases.TC001_login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- register-page -->
+    <test name="back-end" duration-ms="19041" started-at="2019-04-19T20:21:44Z" finished-at="2019-04-19T20:22:03Z">
+      <class name="testCases.TC001_registerUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC001_registerUser@31ef45e3]" name="setup" is-config="true" duration-ms="5120" started-at="2019-04-19T20:21:44Z" finished-at="2019-04-19T20:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sample(java.util.Map)[pri:0, instance:testCases.TC001_registerUser@31ef45e3]" name="sample" duration-ms="5152" started-at="2019-04-19T20:21:50Z" data-provider="getData" finished-at="2019-04-19T20:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passWord=rocknroll, mobile=+14165664976, firstName=sachin, lastName=jindal, email=sachin.jindal1986@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- testCases.TC001_registerUser -->
+      <class name="testCases.TC001_login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC001_login@598067a5]" name="setup" is-config="true" duration-ms="3337" started-at="2019-04-19T20:21:55Z" finished-at="2019-04-19T20:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:testCases.TC001_login@598067a5]" name="doLogin" duration-ms="4459" started-at="2019-04-19T20:21:58Z" finished-at="2019-04-19T20:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="setdown()[pri:0, instance:testCases.TC001_login@598067a5]" name="setdown" is-config="true" duration-ms="0" started-at="2019-04-19T20:22:03Z" finished-at="2019-04-19T20:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdown -->
+      </class> <!-- testCases.TC001_login -->
+    </test> <!-- back-end -->
+  </suite> <!-- regression -->
 </testng-results>
