@@ -18,7 +18,7 @@ public class propertyTest {
 		Properties prop = new Properties();
 		File file = new File("C:\\Users\\sebas\\Downloads\\Mississauga_Batch_Workspace\\Mississauga_Batch_Workspace\\brampton_Hybrid\\src\\test\\resources\\properties\\test.properties");
         
-		System.out.println("QA Lead SebaBranch");
+		System.out.println("QA Automation Remote");
 
 		
 		try {
