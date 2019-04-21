@@ -7,3 +7,5 @@ Added for Git Pull Exercice
 Second Git Pull Exercice
 
 Git Fetch Exercice
+
+Pull Rebase Exercice
