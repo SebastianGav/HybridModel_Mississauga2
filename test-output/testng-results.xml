@@ -1,44 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="regression" duration-ms="23815" started-at="2019-04-20T23:15:44Z" finished-at="2019-04-20T23:16:08Z">
+  <suite name="Default suite" duration-ms="49" started-at="2019-04-21T16:06:09Z" finished-at="2019-04-21T16:06:09Z">
     <groups>
     </groups>
-    <test name="register-page" duration-ms="12637" started-at="2019-04-20T23:15:44Z" finished-at="2019-04-20T23:15:57Z">
-      <class name="testCases.TC001_login">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="setup" is-config="true" duration-ms="5779" started-at="2019-04-20T23:15:44Z" finished-at="2019-04-20T23:15:50Z">
+    <test name="Default test" duration-ms="49" started-at="2019-04-21T16:06:09Z" finished-at="2019-04-21T16:06:09Z">
+      <class name="personalPractice.propertyTest">
+        <test-method status="PASS" signature="testProperty()[pri:0, instance:personalPractice.propertyTest@1d057a39]" name="testProperty" duration-ms="15" started-at="2019-04-21T16:06:09Z" finished-at="2019-04-21T16:06:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="doLogin()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="doLogin" duration-ms="6816" started-at="2019-04-20T23:15:50Z" finished-at="2019-04-20T23:15:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="setdown()[pri:0, instance:testCases.TC001_login@6f7fd0e6]" name="setdown" is-config="true" duration-ms="1" started-at="2019-04-20T23:15:57Z" finished-at="2019-04-20T23:15:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setdown -->
-      </class> <!-- testCases.TC001_login -->
-    </test> <!-- register-page -->
-    <test name="back-end" duration-ms="11128" started-at="2019-04-20T23:15:57Z" finished-at="2019-04-20T23:16:08Z">
-      <class name="testCases.TC001_registerUser">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.TC001_registerUser@31ef45e3]" name="setup" is-config="true" duration-ms="5618" started-at="2019-04-20T23:15:57Z" finished-at="2019-04-20T23:16:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="sample(java.util.Map)[pri:0, instance:testCases.TC001_registerUser@31ef45e3]" name="sample" duration-ms="4306" started-at="2019-04-20T23:16:04Z" data-provider="getData" finished-at="2019-04-20T23:16:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{passWord=rocknroll, mobile=+14165664976, firstName=sachin, lastName=jindal, email=sachin.jindal1986@gmail.com}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- testCases.TC001_registerUser -->
-    </test> <!-- back-end -->
-  </suite> <!-- regression -->
+        </test-method> <!-- testProperty -->
+      </class> <!-- personalPractice.propertyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
