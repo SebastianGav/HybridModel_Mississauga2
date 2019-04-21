@@ -5,13 +5,11 @@
     <test name="register-page">
         <classes>
             <class name="testCases.TC001_login" />
-            <class name="testCases.TC001_login" />
         </classes>
     </test>
   
     <test name="back-end">
         <classes>
-            <class name="testCases.TC001_registerUser" />
             <class name="testCases.TC001_registerUser" />
         </classes>
     </test>
