@@ -5,6 +5,8 @@
     <test name="register-page">
         <classes>
             <class name="testCases.TC001_login" />
+            <class name="testCases.TC001_login" />
+            <class name="testCases.TC001_login" />
         </classes>
     </test>
   
