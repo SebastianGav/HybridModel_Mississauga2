@@ -15,6 +15,7 @@
             <class name="testCases.TC001_registerUser" />
             <class name="testCases.TC001_registerUser" />
             <class name="testCases.TC001_registerUser" />
+            
         </classes>
     </test>
  
